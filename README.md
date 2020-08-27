@@ -6,21 +6,13 @@
 
 ## Intro
 
-In the lesson earlier you:
-
-1. Learned to consume a third-party API in React from the `componentDidMount` lifecycle method.
- 
-2. Create a "service" module to organize `fetch` calls within.
-
-In this lab, you'll consume the [Star Wars API](https://swapi.co/) and render it's data.
-
-**This lab is a DELIVERABLE**
+In this deliverable, you'll consume the [Star Wars API](https://swapi.co/) and render it's data.
 
 ## Set Up
 
-To get set up for this lesson:
+To get set up:
 
-- `cd` into this lab's folder.
+- `cd` into this deliverable's folder.
 - Use `create-react-app` to create a React app named `react-star-wars`
 - `cd` into `react-star-wars` and open VS Code.
 - Open a terminal in VS Code.
@@ -28,7 +20,7 @@ To get set up for this lesson:
 
 ## Exercises
 
-> Styling in this lab is secondary to completing the functionality
+> Styling is secondary to completing the functionality
 
 1. Obtain all of the starships from the API and render in `<App>` a clickable `<Link>` (imported from `react-router-dom`) for each starship. The link should be styled to look like a button and contain the text of the starship's name.  For example:
 
