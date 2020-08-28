@@ -6,7 +6,7 @@
 
 ## Intro
 
-In this deliverable, you'll consume the [Star Wars API](https://swapi.co/) and render it's data.
+In this deliverable, you'll consume the [Star Wars API](https://swapi.dev/) and render it's data.
 
 ## Set Up
 
