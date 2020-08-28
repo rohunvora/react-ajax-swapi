@@ -63,7 +63,7 @@ To get set up:
 			);
 		} 
 		```
-		Be sure the `<Route>` component that is rendering `<StarshipPage>` passes the `location` object to it similar to how we've been passing the `history` object. 
+		Be sure the `<Route>` component that is rendering `<StarshipPage>` passes the `location` object to it.
 
 	2. Another approach would be to pass to `<StarshipPage>` a method as a prop that it can call, supplying an argument identifying which starship object it wants. That argument's value could come from a URL parameter in the link that was clicked...
 
