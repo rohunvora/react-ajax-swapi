@@ -12,7 +12,6 @@ In this deliverable, you'll consume the [Star Wars API](https://swapi.co/) and r
 
 To get set up:
 
-- `cd` into this deliverable's folder.
 - Use `create-react-app` to create a React app named `react-star-wars`
 - `cd` into `react-star-wars` and open VS Code.
 - Open a terminal in VS Code.
@@ -26,7 +25,7 @@ To get set up:
 
 	<img src="https://i.imgur.com/VERV0nk.png">
 
-4. When a starship `<Link>` is clicked a `<StarshipPage>` component should be rendered that displays the starship's `name`, `model` and a "Return to Starship List" `<Link>` that routes back to the root route that renders `<App>`. For example:
+2. When a starship `<Link>` is clicked a `<StarshipPage>` component should be rendered that displays the starship's `name`, `model` and a "Return to Starship List" `<Link>` that routes back to the root route that renders `<App>`. For example:
 
 	<img src="https://i.imgur.com/IjRwsHk.png">
 
