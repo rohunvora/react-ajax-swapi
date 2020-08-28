@@ -54,14 +54,7 @@ To get set up:
 		You'll then be able to access the passed state on the route's `location` object...
 		
 		```js
-		function StarshipPage({location}) {
-			const starship = location.state;
-			return (
-			  <div>
-			    // Starship UI here
-			  </div>
-			);
-		} 
+			this.props.location.state.starship
 		```
 		Be sure the `<Route>` component that is rendering `<StarshipPage>` passes the `location` object to it.
 
