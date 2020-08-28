@@ -69,7 +69,6 @@ To get set up:
 
 		Review the Client-side Routing in React lesson's _Defining Routes with URL Parameters_ section for assistance with how to define routes with parameters used to pass information to components.
 
-	3. The third approach would be to use the data service to fetch the specific starship from the `<StarshipPage>` component.  However, this approach is wasteful unless the data resource changes frequently, e.g., you want to display the latest comments.  In this case, a starship's data does not change and you already have the data stored in state, so this is not an efficient approach.
 
 ## Bonus
 
