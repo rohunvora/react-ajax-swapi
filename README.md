@@ -39,19 +39,27 @@ To get set up:
 
 	1. A nice approach is to use a slightly more complex syntax that React Router's `<Link>` offers.  This approach relies on assigning an object instead of a string to its `to` prop.  That object passed can have a `state` property that allows information to be passed to the new route. For example:
 	
-		```js
-		this.state.starships.map(starship =>
-		  <Link
-		    to={{
-		      pathname: '/starship',
-		      state: starship
-		    }}
-		    key={starship.name}
-		  >
-		    {{starship.name}}
-		  </Link>
-		```
-		You'll then be able to access the passed state on the route's `location` object...
+```js
+this.state.starships.map(starship =>
+  <Link
+    to={{
+      pathname: '/starship',
+      state: starship
+    }}
+    key={starship.name}
+  >
+    {{starship.name}}
+  </Link>
+```
+
+And ***inside your switch statement*** you'll write your `Route` like so:
+```js
+            <Route path='/starship' render={({location}) => 
+              <StarshipPage location={location}/>
+            }/>
+```
+
+You'll then be able to access the passed state on the route's `location` object...
 		
 		```js
 			this.props.location.state.starship
