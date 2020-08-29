@@ -61,14 +61,15 @@ And ***inside your switch statement*** you'll write your `Route` like so:
 
 You'll then be able to access the passed state on the route's `location` object...
 		
-		```js
-			this.props.location.state.starship
-		```
-		Be sure the `<Route>` component that is rendering `<StarshipPage>` passes the `location` object to it.
+```js
+	this.props.location.state.starship
+```
 
-	2. Another approach would be to pass to `<StarshipPage>` a method as a prop that it can call, supplying an argument identifying which starship object it wants. That argument's value could come from a URL parameter in the link that was clicked...
+Be sure the `<Route>` component that is rendering `<StarshipPage>` passes the `location` object to it.
 
-		Review the Client-side Routing in React lesson's _Defining Routes with URL Parameters_ section for assistance with how to define routes with parameters used to pass information to components.
+2. Another approach would be to pass to `<StarshipPage>` a method as a prop that it can call, supplying an argument identifying which starship object it wants. That argument's value could come from a URL parameter in the link that was clicked...
+
+Review the Client-side Routing in React lesson's _Defining Routes with URL Parameters_ section for assistance with how to define routes with parameters used to pass information to components.
 
 
 ## Bonus
